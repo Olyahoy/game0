@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+#game {
+    width: 450px;
+    height: 450px;
+    background: rgb(49, 49, 49);
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.block {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    line-height: 150px;
+    text-align: center;
+    font-size: 120px;
+    color: aliceblue;
+}
